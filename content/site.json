@@ -1,14 +1,11 @@
 {
-  "name": "Asiakas Oy",
-  "tagline": "<täydennä: lyhyt lupaus>",
+  "name": "Liekki Partners",
+  "tagline": "Micro-PE ja MBO-kiihdyttämö: rakennamme yritykseesi uuden vetäjän ja toimintamallin yhdessä kanssasi ennen kauppaa.",
   "locale": "fi_FI",
-  "contactEmail": "<täydennä>",
-  "nav": [
-    { "label": "Etusivu", "href": "/" },
-    { "label": "Ota yhteyttä", "href": "/yhteys" }
-  ],
+  "nav": [],
   "footerLinks": [
-    { "label": "Tietosuoja", "href": "/tietosuoja" }
+    { "label": "Tietosuojaseloste", "href": "/tietosuoja" },
+    { "label": "Käyttöehdot", "href": "/kayttoehdot" }
   ],
   "boostaamoBadge": true,
   "ecosystem": [

@@ -1,10 +1,10 @@
 ---
-title: "Ota yhteyttä"
-description: "<täydennä>"
+title: "Ota yhteyttä | Liekki Partners"
+description: "Jätä yhteydenotto, niin sovimme maksuttoman ja luottamuksellisen keskustelun omistajanvaihdoksesta."
 form: lead
-updated: "2026-01-01"
+updated: "2026-11-05"
 ---
 
-# Ota yhteyttä
+# Jätä yhteydenotto
 
-Kerro lyhyesti tilanteestasi, niin palaamme asiaan. <täydennä: vastausaika, jos sellainen lupaus voidaan pitää.>
+Kerro lyhyesti tilanteestasi. Käsittelemme tiedot luottamuksellisesti ja palaamme asiaan.

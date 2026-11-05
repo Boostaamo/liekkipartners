@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container">
         <div className="footer-row">
-          <strong>{site.name}</strong>
+          <span className="muted">&copy; {new Date().getFullYear()} {site.name}. Kaikki oikeudet pidätetään.</span>
           <ul className="nav">
             {site.footerLinks.map((item) => (
               <li key={item.href}>

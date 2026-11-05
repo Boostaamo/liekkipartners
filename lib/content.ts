@@ -9,6 +9,7 @@ export type PageMeta = {
   title: string;
   description?: string;
   form?: "lead";
+  layout?: "landing";
   noindex?: boolean;
   updated?: string;
 };

@@ -1,16 +1,19 @@
-/* Väri- ja tyylimuuttujat. Korvaa arvot asiakkaan design systemin arvoilla (vaihe 3). */
+@import "tailwindcss";
+
+/* Liekki Partners: tumma teema, oranssi korostus. */
 :root {
-  --color-bg: #ffffff;
-  --color-text: #1b1f24;
-  --color-muted: #5b6470;
-  --color-accent: #0b5fff;
+  --color-bg: #000000;
+  --color-text: #d4d4d4;
+  --color-muted: #a3a3a3;
+  --color-accent: #f97316;
   --color-accent-contrast: #ffffff;
-  --color-border: #d9dde3;
-  --color-surface: #f5f7fa;
+  --color-border: #262626;
+  --color-surface: #171717;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --radius: 8px;
   --space: 1rem;
   --max-width: 72rem;
+  color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -22,7 +25,7 @@ body {
   background: var(--color-bg);
   line-height: 1.6;
 }
-a { color: var(--color-accent); }
+@layer base { a { color: var(--color-accent); } }
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
   outline: 3px solid var(--color-accent);
   outline-offset: 2px;
@@ -31,15 +34,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .skip-link { position: absolute; left: -999px; top: 0; background: var(--color-bg); padding: .5rem 1rem; z-index: 100; }
 .skip-link:focus { left: 0; }
 
-.site-header { border-bottom: 1px solid var(--color-border); }
+.site-header { position: fixed; top: 0; width: 100%; z-index: 50; background: rgba(0,0,0,.8); backdrop-filter: blur(16px); border-bottom: 1px solid var(--color-border); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: .75rem; padding-bottom: .75rem; flex-wrap: wrap; }
+.site-header a { text-decoration: none; }
 .brand { font-weight: 700; font-size: 1.15rem; text-decoration: none; color: var(--color-text); }
 .nav { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin: 0; padding: 0; }
 
-main { padding: 2rem 0 3rem; min-height: 60vh; }
+main { min-height: 60vh; }
+.page { padding-top: 8rem; padding-bottom: 4rem; }
 .prose { max-width: 46rem; }
 .prose h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; }
-.prose h2 { margin-top: 2rem; }
+.prose h2 { margin-top: 2rem; font-size: 1.5rem; font-weight: 700; color: #fff; }
+.prose h1 { font-weight: 800; color: #fff; }
+.prose ul { list-style: disc; padding-left: 1.25rem; }
+.prose blockquote { margin: 1rem 0; padding: .75rem 1rem; border-left: 3px solid var(--color-accent); background: var(--color-surface); }
 .prose img { max-width: 100%; height: auto; }
 
 .button {
@@ -55,14 +63,14 @@ main { padding: 2rem 0 3rem; min-height: 60vh; }
 .form { max-width: 34rem; margin-top: 2rem; display: grid; gap: 1rem; }
 .field { display: grid; gap: .35rem; }
 .field input[type="text"], .field input[type="email"], .field textarea {
-  font: inherit; padding: .6rem .75rem; border: 1px solid var(--color-border); border-radius: var(--radius); width: 100%;
+  font: inherit; padding: .6rem .75rem; border: 1px solid var(--color-border); border-radius: var(--radius); width: 100%; background: var(--color-surface); color: var(--color-text);
 }
 .field.checkbox { grid-template-columns: auto 1fr; align-items: start; gap: .6rem; }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .notice { padding: 1rem; background: var(--color-surface); border-radius: var(--radius); }
-.error { color: #b00020; }
+.error { color: #f87171; }
 
-.site-footer { border-top: 1px solid var(--color-border); background: var(--color-surface); padding: 2rem 0; font-size: .95rem; }
+.site-footer { border-top: 1px solid var(--color-border); background: #000; padding: 2rem 0; font-size: .95rem; }
 .footer-row { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .ecosystem { margin-top: 1.5rem; }
 .muted { color: var(--color-muted); margin: .25rem 0; }
