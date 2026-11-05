@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "badge": "Micro-PE & MBO-kiihdyttämö",
+    "titleBefore": "Elämäntyösi jatkuu",
+    "titleAccent": "uuden vetäjän",
+    "titleAfter": "ja valmiin tiimin voimin",
+    "lead": "Rakennamme yritykseesi uuden vetäjän ja toimintamallin yhdessä kanssasi ennen kauppaa."
+  },
+  "cta": {
+    "contact": "Jätä yhteydenotto",
+    "book": "Varaa aika"
+  },
+  "route": {
+    "title": "Turvallinen reitti omistajanvaihdokseen",
+    "p1": "Suomessa on tällä hetkellä yli kaksi kertaa enemmän myyntiä harkitsevia yrityksiä kuin ostajia. Poistamme yrityskaupan suurimman epävarmuuden ottamalla vetovastuun jo ennen lopullista myyntipäätöstä.",
+    "source": "Lähde: Finnvera / Suomen Yrittäjät, 9/2025.",
+    "p2": "Tuomme yritykseesi valmiin asiantuntijatiimin ja etsimme potentiaalisen jatkajan. Sitoudumme onnistumiseen sijoittamalla yhtiöön yhdessä uuden vetäjän kanssa, mikä varmistaa elämäntyösi jatkumisen vakaalla pohjalla.",
+    "cardTitle": "Riski haltuun ennen kauppaa",
+    "cardItems": [
+      "Asiantuntijatiimi taloon",
+      "Potentiaalinen jatkaja etsitään",
+      "Sijoitamme yhdessä uuden vetäjän kanssa",
+      "Elämäntyö turvataan"
+    ]
+  },
+  "audience": {
+    "title": "Kenelle Liekki Partners on tarkoitettu?",
+    "lead": "Olemme oikea kumppani yrittäjälle, joka:",
+    "items": [
+      { "icon": "clock", "title": "Myynti 1-3 vuoden sisällä", "desc": "Harkitsee yrityksensä myyntiä 1–3 vuoden sisällä." },
+      { "icon": "user", "title": "Vahvasti omistajavetoinen", "desc": "Johtaa yritystä, jonka toiminta nojaa edelleen vahvasti omistajaansa." },
+      { "icon": "factory", "title": "B2B / Teollisuus", "desc": "Toimii B2B-markkinassa, ensisijaisesti teollisuudessa." },
+      { "icon": "chart", "title": "Liikevaihto 1,5–4 M€", "desc": "Pyörittää noin 1,5–4 miljoonan euron liikevaihtoa." }
+    ]
+  },
+  "process": {
+    "title": "Miten yhteistyö etenee käytännössä?",
+    "lead": "Selkeät askelmerkit kohti turvallista omistajanvaihdosta.",
+    "steps": [
+      { "title": "Tutustuminen ja analyysi", "desc": "Keskustellaan tilanteestasi ja tavoitteistasi. Tehdään potentiaalianalyysi ja suunnitelma, miten omistajanvaihdos yrityksessäsi kannattaa toteuttaa." },
+      { "title": "Hautomo", "desc": "Potentiaalinen vetäjä etsitään ja asiantuntijatiimimme auttaa kehittämään yrityksesi taloutta, myyntiä ja prosesseja." },
+      { "title": "Kauppa", "desc": "Toteutamme yrityskaupan alussa sovituilla aikatauluilla sijoittamalla yhtiöön yhdessä uuden vetäjän kanssa. Sinä voit siirtyä levollisin mielin joko eläkkeelle tai neuvonantajaksi." },
+      { "title": "Tulosvarmistus", "desc": "Olemme samassa veneessä, yhteinen mittaristo ohjaa sinun kauppahintaasi, tiimin palkkiota sekä uuden vetäjän optioita." },
+      { "title": "Uusi omistaja", "desc": "Uusi toimitusjohtaja jatkaa yrityksen kasvattamista ja ostaa muutaman vuoden kuluttua joko yksin tai avainhenkilöiden kanssa yhtiön kokonaan itselleen." }
+    ]
+  },
+  "finalCta": {
+    "title": "Ota ensimmäinen askel",
+    "p1": "Varaa maksuton 30–45 minuutin luottamuksellinen keskustelu tilanteesi kartoittamiseksi. Kerromme, miten yrityksen jatkuvuuden varmistaminen toteutetaan hienovaraisesti ja elämäntyötäsi kunnioittaen.",
+    "p2": "Ensimmäinen varsinainen askel yhteistyössä on Exit-valmiuden ja arvonkasvun auditointi, joka antaa selkeän kuvan yrityksesi nykytilasta."
+  }
+}

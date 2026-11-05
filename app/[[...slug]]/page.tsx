@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getPage, listSlugs } from "@/lib/content";
 import { site } from "@/lib/site";
 import LeadForm from "@/components/LeadForm";
+import Landing from "@/components/Landing";
 
 export const dynamicParams = false;
 
@@ -35,8 +36,10 @@ export default async function ContentPage({ params }: Props) {
   const page = getPage(slug);
   if (!page) notFound();
 
+  if (page.meta.layout === "landing") return <Landing />;
+
   return (
-    <div className="container">
+    <div className="container page">
       <article className="prose" dangerouslySetInnerHTML={{ __html: page.html }} />
       {page.meta.form === "lead" && (
         <LeadForm source={slug.length ? slug.join("/") : "etusivu"} />
