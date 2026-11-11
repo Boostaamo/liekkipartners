@@ -19,7 +19,7 @@ Tämä on Boostaamon verkkosivuprojektin pohja (Next.js, App Router, TypeScript)
 
 ## Boostaamon sivusto: lisäohjeet
 
-Sivusto: Liekki Partners | Domain: <täydennä> (repossa mainittu www.liekkipartners.fi) | Rekisteri: boostaamo-core/verkkosivut/sivustot.md
+Sivusto: Liekki Partners | Domain: liekkipartners.fi | Rekisteri: boostaamo-core/verkkosivut/sivustot.md
 Tila: luonnos | Versio: v0.1 | Pvm: 2026-11-11 | Hyväksyjä: Hannu
 Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -projekti Verkkosivut, tämä sivusto omassa ketjussaan).
 
@@ -30,7 +30,7 @@ Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -proje
 - Tuotenimet ja hinnat: palvelumatriisi (Konserni/02 Palvelut ja tuotteet). Hintoja ei julkaista sivustolla ilman Hannun päätöstä.
 
 ### Säännöt
-- Konversiopiste: <täydennä>.
+- Konversiopiste: yhteydenottolomakkeen lähetys (analytiikassa `generate_lead`-tapahtuma). Hannu 2026-11-11.
 - Alalaidassa "A Boostaamo Company" ja ekosysteemilinkit.
 - Ei keksittyjä caseja, lukuja, referenssejä, asiakaslogoja tai lupauksia.
 - Ei salaisuuksia, .env-tiedostoja, liidejä, henkilötietoja eikä asiakasdataa repoon. Luottamukselliset-kansiota ei käytetä.
@@ -38,4 +38,4 @@ Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -proje
 - Domainiin, DNS:ään ja Vercelin tuotantoasetuksiin ei kosketa ilman Hannun erillistä lupaa.
 - Kirjautuminen, maksut, taustajärjestelmät ja laajat integraatiot: pysäytä ja ehdota Bistekiä.
 - Julkaisun jälkeen kerro, mitä rekisteriin (sivustot.md) pitää päivittää: repo, Vercel-projekti, julkaisupäivä, domain.
-- Ensimmäinen versio julkaistu 11.11.2026. Sivusto puuttuu vielä rekisteristä sivustot.md; Vercel-projekti <täydennä>.
+- Ensimmäinen versio julkaistu 11.11.2026. Rekisterissä sivustot.md; Vercel-projekti `liekkipartners`.
