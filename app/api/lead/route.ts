@@ -103,7 +103,17 @@ export async function POST(req: Request) {
       /* ei JSON-vastausta: hyväksytään, ellei vastaus ole HTML-sivu */
     }
     if (rejected) {
-      console.error("Liidin vastaanottaja hylkäsi liidin (vastaus ok:false tai HTML).");
+      // Lokitetaan vain vastaanottajan vastauksen alku vianhakua varten (ei liidin tietoja).
+      const kind = /^\s*</.test(text) ? "HTML" : "ok:false";
+      const host = (() => {
+        try {
+          return new URL(res.url).host;
+        } catch {
+          return "?";
+        }
+      })();
+      const snippet = text.replace(/\s+/g, " ").slice(0, 200);
+      console.error(`Liidin vastaanottaja hylkäsi liidin (${kind}, tila ${res.status}, palvelin ${host}): ${snippet}`);
       return NextResponse.json({ ok: false, error: "Lähetys epäonnistui. Yritä myöhemmin uudelleen." }, { status: 502 });
     }
   } catch {
