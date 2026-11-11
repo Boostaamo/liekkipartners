@@ -30,7 +30,7 @@ Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -proje
 - Tuotenimet ja hinnat: palvelumatriisi (Konserni/02 Palvelut ja tuotteet). Hintoja ei julkaista sivustolla ilman Hannun päätöstä.
 
 ### Säännöt
-- Konversiopiste: <täydennä>.
+- Konversiopiste: yhteydenottolomakkeen lähetys (analytiikassa `generate_lead`-tapahtuma). Hannu 2026-11-11.
 - Alalaidassa "A Boostaamo Company" ja ekosysteemilinkit.
 - Ei keksittyjä caseja, lukuja, referenssejä, asiakaslogoja tai lupauksia.
 - Ei salaisuuksia, .env-tiedostoja, liidejä, henkilötietoja eikä asiakasdataa repoon. Luottamukselliset-kansiota ei käytetä.
