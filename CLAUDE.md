@@ -19,7 +19,7 @@ Tämä on Boostaamon verkkosivuprojektin pohja (Next.js, App Router, TypeScript)
 
 ## Boostaamon sivusto: lisäohjeet
 
-Sivusto: Liekki Partners | Domain: <täydennä> (repossa mainittu www.liekkipartners.fi) | Rekisteri: boostaamo-core/verkkosivut/sivustot.md
+Sivusto: Liekki Partners | Domain: liekkipartners.fi | Rekisteri: boostaamo-core/verkkosivut/sivustot.md
 Tila: luonnos | Versio: v0.1 | Pvm: 2026-11-11 | Hyväksyjä: Hannu
 Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -projekti Verkkosivut, tämä sivusto omassa ketjussaan).
 
@@ -38,4 +38,4 @@ Kokonaisohje: boostaamo-core/verkkosivut/claude-code-ohje.md (Claude Code -proje
 - Domainiin, DNS:ään ja Vercelin tuotantoasetuksiin ei kosketa ilman Hannun erillistä lupaa.
 - Kirjautuminen, maksut, taustajärjestelmät ja laajat integraatiot: pysäytä ja ehdota Bistekiä.
 - Julkaisun jälkeen kerro, mitä rekisteriin (sivustot.md) pitää päivittää: repo, Vercel-projekti, julkaisupäivä, domain.
-- Ensimmäinen versio julkaistu 11.11.2026. Sivusto puuttuu vielä rekisteristä sivustot.md; Vercel-projekti <täydennä>.
+- Ensimmäinen versio julkaistu 11.11.2026. Rekisterissä sivustot.md; Vercel-projekti `liekkipartners`.
