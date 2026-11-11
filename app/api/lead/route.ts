@@ -87,10 +87,23 @@ export async function POST(req: Request) {
         "Content-Type": "application/json",
         ...(process.env.LEAD_WEBHOOK_SECRET ? { "X-Webhook-Secret": process.env.LEAD_WEBHOOK_SECRET } : {}),
       },
-      body: JSON.stringify(lead),
+      // Osa vastaanottajista (esim. Google Apps Script) ei näe otsikoita, joten salaisuus lähetetään myös sisällössä.
+      body: JSON.stringify(process.env.LEAD_WEBHOOK_SECRET ? { ...lead, secret: process.env.LEAD_WEBHOOK_SECRET } : lead),
     });
     if (!res.ok) {
       console.error(`Liidin lähetys epäonnistui, tila ${res.status}.`);
+      return NextResponse.json({ ok: false, error: "Lähetys epäonnistui. Yritä myöhemmin uudelleen." }, { status: 502 });
+    }
+    // Vastaanottaja voi vastata 200, vaikka hylkäisi liidin (esim. väärä salaisuus tai kirjautumissivu). Tulkitaan se virheeksi.
+    const text = await res.text();
+    let rejected = /^\s*</.test(text);
+    try {
+      rejected = rejected || (JSON.parse(text) as { ok?: unknown }).ok === false;
+    } catch {
+      /* ei JSON-vastausta: hyväksytään, ellei vastaus ole HTML-sivu */
+    }
+    if (rejected) {
+      console.error("Liidin vastaanottaja hylkäsi liidin (vastaus ok:false tai HTML).");
       return NextResponse.json({ ok: false, error: "Lähetys epäonnistui. Yritä myöhemmin uudelleen." }, { status: 502 });
     }
   } catch {
