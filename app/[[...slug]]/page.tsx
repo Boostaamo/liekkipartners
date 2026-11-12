@@ -19,7 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!page) return {};
   const path = slug.length ? `/${slug.join("/")}` : "/";
   return {
-    title: page.slug.length === 0 ? { absolute: page.meta.title } : page.meta.title,
+    // Sisällön otsikoissa on jo sivuston nimi, joten pohjaa (%s | nimi) ei käytetä.
+    title: { absolute: page.meta.title },
     description: page.meta.description,
     alternates: { canonical: `${site.url}${path}` },
     robots: page.meta.noindex ? { index: false, follow: false } : undefined,

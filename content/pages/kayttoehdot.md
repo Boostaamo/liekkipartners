@@ -1,15 +1,14 @@
 ---
 title: "Käyttöehdot | Liekki Partners"
 description: "Liekki Partners -verkkosivuston käyttöehdot ja vastuunrajaukset."
-noindex: true
-updated: "2026-11-05"
+updated: "2026-11-12"
 ---
 
 # Käyttöehdot
 
-> LUONNOS: nämä ehdot ovat tarkistamatta. Tarkistuta sisältö ennen julkaisua. Poista tämä huomautus ja `noindex` tiedoston alusta, kun ehdot on hyväksytty.
+Päivitetty: 12.11.2026
 
-Päivitetty: 5.11.2026
+Sivustoa ylläpitää Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9.
 
 ## Sivuston sisältö
 
@@ -33,4 +32,4 @@ Henkilötietojen käsittelystä kerrotaan [tietosuojaselosteessa](/tietosuoja).
 
 ## Sovellettava laki
 
-Näihin ehtoihin sovelletaan Suomen lakia. <täydennä: toimivaltainen tuomioistuin>
+Näihin ehtoihin sovelletaan Suomen lakia. Erimielisyydet ratkaistaan ensisijaisesti neuvottelemalla. Jos sopuun ei päästä, asia ratkaistaan Keski-Suomen käräjäoikeudessa.
