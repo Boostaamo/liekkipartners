@@ -26,7 +26,7 @@ Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, <täydennä: sähköposti>.
 
 ## Mihin tiedot tallennetaan ja kuka niitä käsittelee
 
-Lomakkeella lähetetyt tiedot toimitetaan sähköpostina yhteydenottoja käsittelevälle henkilölle. Niitä käsittelevät vain Liekki Partnersin yhteydenottoja hoitavat henkilöt. Emme myy tai luovuta tietoja markkinointiin.
+Lomakkeella lähetetyt tiedot toimitetaan sähköpostina yhteydenottoja käsittelevälle henkilölle. Niitä käsittelevät vain Liekki Partnersin yhteydenottoja hoitavat henkilöt. Emme myy tai luovuta tietoja markkinointiin, emmekä anna niitä muille Boostaamo-yhteisön yhtiöille ilman pyyntöäsi.
 
 Käytämme seuraavia palveluntarjoajia, jotka käsittelevät tietoja puolestamme:
 
@@ -48,3 +48,7 @@ Jos katsot, että tietojesi käsittely rikkoo tietosuojalainsäädäntöä, voit
 ## Evästeet
 
 Käytämme analytiikkaevästeitä vain, jos hyväksyt ne. Voit muuttaa valintaasi milloin tahansa sivun alalaidan kohdasta "Evästeasetukset".
+
+## Selosteen muutokset
+
+Voimme päivittää tätä selostetta, kun palvelumme tai lainsäädäntö muuttuu. Voimassa oleva versio on aina tällä sivulla, ja sen päivityspäivä näkyy sivun alussa.
