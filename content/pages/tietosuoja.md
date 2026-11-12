@@ -12,7 +12,7 @@ Päivitetty: 12.11.2026
 
 Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele.
 
-Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, <täydennä: sähköposti>.
+Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, hannu@boostaamo.fi.
 
 ## Mitä tietoja keräämme ja miksi
 
@@ -41,7 +41,7 @@ Säilytämme yhteydenoton tiedot enintään 24 kuukautta viimeisestä yhteydenot
 
 ## Oikeutesi
 
-Sinulla on oikeus tarkastaa, oikaista ja poistaa tietosi, rajoittaa ja vastustaa niiden käsittelyä sekä siirtää tiedot järjestelmästä toiseen. Voit myös peruuttaa suostumuksesi. Ota yhteyttä: <täydennä: sähköposti>.
+Sinulla on oikeus tarkastaa, oikaista ja poistaa tietosi, rajoittaa ja vastustaa niiden käsittelyä sekä siirtää tiedot järjestelmästä toiseen. Voit myös peruuttaa suostumuksesi. Ota yhteyttä: hannu@boostaamo.fi.
 
 Jos katsot, että tietojesi käsittely rikkoo tietosuojalainsäädäntöä, voit tehdä valituksen tietosuojavaltuutetun toimistolle ([tietosuoja.fi](https://tietosuoja.fi)).
 
