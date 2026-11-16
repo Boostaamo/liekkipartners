@@ -1,37 +1,54 @@
 ---
 title: "Tietosuojaseloste | Liekki Partners"
 description: "Miten Liekki Partners käsittelee yhteydenottolomakkeella ja analytiikkaevästeillä kerättäviä tietoja."
-noindex: true
-updated: "2026-11-05"
+updated: "2026-11-12"
 ---
 
 # Tietosuojaseloste
 
-> LUONNOS: tämä seloste on tarkistamatta. Täydennä `<täydennä>`-kohdat ja tarkistuta sisältö ennen julkaisua. Poista tämä huomautus ja `noindex` tiedoston alusta, kun seloste on valmis.
-
-Päivitetty: 5.11.2026
+Päivitetty: 12.11.2026
 
 ## Rekisterinpitäjä
 
-<täydennä: rekisterinpitäjänä toimivan yhtiön nimi, Y-tunnus ja osoite>. Yhteyshenkilö tietosuoja-asioissa: <täydennä: nimi ja sähköposti>.
+Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele.
+
+Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, hannu@boostaamo.fi.
 
 ## Mitä tietoja keräämme ja miksi
 
-- **Yhteydenottolomake:** nimi, sähköposti, yritys ja viesti sekä tieto siitä, miltä sivulta ja mistä markkinointikanavasta (UTM-tunnisteet) lomake lähetettiin. Käytämme tietoja yhteydenottoon ja mahdollisen yhteistyön valmisteluun. Oikeusperuste: <täydennä: esim. oikeutettu etu tai suostumus>.
-- **Analytiikka:** kävijämäärät ja sivujen käyttö Google Analyticsilla, vain suostumuksellasi.
+- **Yhteydenottolomake:** nimi, sähköposti, yritys ja viesti sekä tieto siitä, miltä sivulta ja mistä markkinointikanavasta (UTM-tunnisteet) lomake lähetettiin. Käytämme tietoja yhteydenottoosi vastaamiseen ja mahdollisen yhteistyön valmisteluun.
+- **Analytiikka:** kävijämäärät ja sivujen käyttö Google Analyticsilla, vain jos hyväksyt analytiikkaevästeet. Emme yhdistä analytiikkatietoja lomakkeen tietoihin.
 
-## Mihin tiedot tallennetaan ja kenelle niitä luovutetaan
+## Käsittelyn oikeusperuste
 
-Lomakkeella lähetetyt tiedot tallennetaan Boostaamo-konsernin liidilistalle ja niistä lähtee ilmoitus yhteydenottoja käsittelevälle henkilölle. Tietoja käsittelevät Boostaamo-yhteisön yhtiöt <täydennä: tarkenna, mitkä yhtiöt ja millä perusteella>. Sivusto toimii Vercelin palvelussa ja analytiikka Googlen palvelussa. <täydennä: tarkista tietojen siirrot EU:n ulkopuolelle>.
+- Yhteydenottolomake: oikeutettu etu. Kun otat meihin yhteyttä, voimme perustellusti käsitellä tietojasi vastataksemme sinulle ja hoitaaksemme asiaa.
+- Analytiikka: suostumuksesi. Voit peruuttaa sen milloin tahansa.
+
+## Mihin tiedot tallennetaan ja kuka niitä käsittelee
+
+Lomakkeella lähetetyt tiedot toimitetaan sähköpostina yhteydenottoja käsittelevälle henkilölle. Niitä käsittelevät vain Liekki Partnersin yhteydenottoja hoitavat henkilöt. Emme myy tai luovuta tietoja markkinointiin, emmekä anna niitä muille Boostaamo-yhteisön yhtiöille ilman pyyntöäsi.
+
+Käytämme seuraavia palveluntarjoajia, jotka käsittelevät tietoja puolestamme:
+
+- Vercel Inc. (sivuston ylläpito)
+- Google (lomakkeen välitys ja sähköposti sekä Google Analytics)
+
+Palveluntarjoajat voivat käsitellä tietoja myös EU:n ja ETA:n ulkopuolella, erityisesti Yhdysvalloissa. Siirrot perustuvat EU:n ja Yhdysvaltojen väliseen tietosuojakehykseen (EU-U.S. Data Privacy Framework) tai Euroopan komission hyväksymiin vakiosopimuslausekkeisiin.
 
 ## Säilytysaika
 
-<täydennä: säilytysaika, esim. liidit x kuukautta viimeisestä yhteydenotosta>
+Säilytämme yhteydenoton tiedot enintään 24 kuukautta viimeisestä yhteydenotosta, ellei niistä synny asiakassuhdetta. Asiakassuhteen tietoja säilytetään sopimuksen ja lain edellyttämän ajan. Google Analyticsin tiedot säilyvät 14 kuukautta.
 
 ## Oikeutesi
 
-Sinulla on oikeus tarkastaa, oikaista ja poistaa tietosi, rajoittaa ja vastustaa käsittelyä sekä siirtää tiedot järjestelmästä toiseen. Voit myös peruuttaa suostumuksesi. Ota yhteyttä: <täydennä: sähköposti>. Sinulla on oikeus tehdä valitus tietosuojavaltuutetun toimistolle.
+Sinulla on oikeus tarkastaa, oikaista ja poistaa tietosi, rajoittaa ja vastustaa niiden käsittelyä sekä siirtää tiedot järjestelmästä toiseen. Voit myös peruuttaa suostumuksesi. Ota yhteyttä: hannu@boostaamo.fi.
+
+Jos katsot, että tietojesi käsittely rikkoo tietosuojalainsäädäntöä, voit tehdä valituksen tietosuojavaltuutetun toimistolle ([tietosuoja.fi](https://tietosuoja.fi)).
 
 ## Evästeet
 
-Käytämme analytiikkaevästeitä vain, jos hyväksyt ne. Voit muuttaa valintaasi sivun alalaidan kohdasta "Evästeasetukset".
+Käytämme analytiikkaevästeitä vain, jos hyväksyt ne. Voit muuttaa valintaasi milloin tahansa sivun alalaidan kohdasta "Evästeasetukset".
+
+## Selosteen muutokset
+
+Voimme päivittää tätä selostetta, kun palvelumme tai lainsäädäntö muuttuu. Voimassa oleva versio on aina tällä sivulla, ja sen päivityspäivä näkyy sivun alussa.
