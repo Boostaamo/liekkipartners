@@ -6,7 +6,7 @@ const icons = { clock: Clock, user: UserCheck, factory: Factory, chart: LineChar
 const BOOKING_URL = process.env.NEXT_PUBLIC_BOOKING_URL || "";
 
 const primary =
-  "inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-8 py-4 text-lg font-semibold text-white shadow-[0_0_20px_rgba(249,115,22,0.3)] transition-all duration-300 hover:bg-orange-600 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)]";
+  "inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-8 py-4 text-lg font-semibold text-black shadow-[0_0_20px_rgba(249,115,22,0.3)] transition-all duration-300 hover:bg-orange-600 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)]";
 const secondary =
   "inline-flex items-center justify-center gap-2 rounded-full border border-neutral-700 bg-neutral-900 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:border-orange-500/50 hover:bg-neutral-800";
 
@@ -54,7 +54,7 @@ export default function Landing() {
             <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl">{route.title}</h2>
             <div className="mb-8 h-1 w-20 rounded-full bg-gradient-to-r from-orange-500 to-orange-600" />
             <p className="mb-2 text-lg leading-relaxed text-neutral-400">{route.p1}</p>
-            <p className="mb-6 text-sm text-neutral-500">{route.source}</p>
+            <p className="mb-6 text-sm text-neutral-400">{route.source}</p>
             <p className="text-lg leading-relaxed text-neutral-400">{route.p2}</p>
           </div>
           <div className="relative">
@@ -105,7 +105,7 @@ export default function Landing() {
           <ol className="grid list-none gap-8 p-0 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
             {process.steps.map((step, i) => (
               <li key={step.title} className="group flex flex-col rounded-2xl border border-neutral-800 bg-black p-8 transition-colors hover:border-orange-500/50">
-                <div className="mb-6 text-5xl font-black text-neutral-700 transition-colors group-hover:text-orange-500/40" aria-hidden="true">
+                <div className="mb-6 text-5xl font-black text-neutral-500 transition-colors group-hover:text-orange-500/40" aria-hidden="true">
                   {String(i + 1).padStart(2, "0")}
                 </div>
                 <h3 className="mb-3 text-xl font-bold text-white">{step.title}</h3>
