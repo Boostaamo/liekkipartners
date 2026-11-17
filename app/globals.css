@@ -6,7 +6,7 @@
   --color-text: #d4d4d4;
   --color-muted: #a3a3a3;
   --color-accent: #f97316;
-  --color-accent-contrast: #ffffff;
+  --color-accent-contrast: #000000;
   --color-border: #262626;
   --color-surface: #171717;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -58,6 +58,7 @@ main { min-height: 60vh; }
 }
 .button.secondary { background: transparent; color: var(--color-accent); }
 .button:disabled { opacity: .6; cursor: progress; }
+.prose a, .field.checkbox a { text-decoration: underline; text-underline-offset: 2px; }
 .link-button { background: none; border: 0; padding: 0; font: inherit; color: var(--color-accent); text-decoration: underline; cursor: pointer; }
 
 .form { max-width: 34rem; margin-top: 2rem; display: grid; gap: 1rem; }
