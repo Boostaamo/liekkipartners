@@ -1,16 +1,16 @@
 ---
 title: "Tietosuojaseloste | Liekki Partners"
 description: "Miten Liekki Partners käsittelee yhteydenottolomakkeella ja analytiikkaevästeillä kerättäviä tietoja."
-updated: "2026-11-12"
+updated: "2026-11-17"
 ---
 
 # Tietosuojaseloste
 
-Päivitetty: 12.11.2026
+Päivitetty: 17.11.2026
 
 ## Rekisterinpitäjä
 
-Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele.
+Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele. Postiosoite: Kaaritie 12 a 4, 42220 Kaipola.
 
 Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, hannu@boostaamo.fi.
 
