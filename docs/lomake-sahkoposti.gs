@@ -9,6 +9,13 @@
  * Salaisuutta ei kirjoiteta koodiin.
  */
 const TO = "hannu@dimma.fi";
+const SENDER_NAME = "Liekki Partners -lomake";
+const SUBJECT = "Liekki Partners: uusi yhteydenotto";
+
+// Poistaa rivinvaihdot ja muuttaa linkit tekstiksi (ei http-alkuja), jotta runko ei sisällä klikattavia linkkejä.
+function clean(v) {
+  return String(v || "-").replace(/[\r\n]+/g, " ").replace(/https?:\/\//gi, "").trim() || "-";
+}
 
 function doPost(e) {
   let lead;
@@ -24,21 +31,22 @@ function doPost(e) {
   const body = [
     "Uusi yhteydenotto Liekki Partners -sivulta",
     "",
-    "Nimi: " + lead.name,
-    "Sähköposti: " + lead.email,
-    "Yritys: " + (lead.company || "-"),
-    "Viesti: " + (lead.message || "-"),
+    "Nimi: " + clean(lead.name),
+    "Sähköposti: " + clean(lead.email),
+    "Yritys: " + clean(lead.company),
+    "Viesti: " + String(lead.message || "-").replace(/https?:\/\//gi, ""),
     "",
-    "Sivu: " + lead.page + " (" + lead.source + ")",
-    "Viittaaja: " + (lead.referrer || "-"),
-    "UTM: " + [u.source, u.medium, u.campaign, u.term, u.content].map(function (v) { return v || "-"; }).join(" / "),
-    "Vastaanotettu: " + lead.receivedAt,
+    "Sivu: " + clean(lead.page) + " (" + clean(lead.source) + ")",
+    "Viittaaja: " + clean(lead.referrer),
+    "UTM: " + [u.source, u.medium, u.campaign, u.term, u.content].map(clean).join(" / "),
+    "Vastaanotettu: " + clean(lead.receivedAt),
   ].join("\n");
 
   MailApp.sendEmail({
     to: TO,
-    replyTo: lead.email,
-    subject: "Liekki Partners: yhteydenotto, " + lead.name,
+    name: SENDER_NAME,
+    replyTo: clean(lead.email),
+    subject: SUBJECT,
     body: body,
   });
   return out({ ok: true });
