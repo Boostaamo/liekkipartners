@@ -1,16 +1,16 @@
 ---
 title: "Tietosuojaseloste | Liekki Partners"
 description: "Miten Liekki Partners käsittelee yhteydenottolomakkeella ja analytiikkaevästeillä kerättäviä tietoja."
-updated: "2026-11-17"
+updated: "2026-11-27"
 ---
 
 # Tietosuojaseloste
 
-Päivitetty: 17.11.2026
+Päivitetty: 27.11.2026
 
 ## Rekisterinpitäjä
 
-Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele. Postiosoite: Kaaritie 12 a 4, 42220 Kaipola.
+Kriha Invest Oy (Liekki Partners), Y-tunnus 2644804-9, kotipaikka Kempele.
 
 Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, hannu@boostaamo.fi.
 
@@ -26,12 +26,13 @@ Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, hannu@boostaamo.fi.
 
 ## Mihin tiedot tallennetaan ja kuka niitä käsittelee
 
-Lomakkeella lähetetyt tiedot toimitetaan sähköpostina yhteydenottoja käsittelevälle henkilölle. Niitä käsittelevät vain Liekki Partnersin yhteydenottoja hoitavat henkilöt. Emme myy tai luovuta tietoja markkinointiin, emmekä anna niitä muille Boostaamo-yhteisön yhtiöille ilman pyyntöäsi.
+Lomakkeella lähetetyt tiedot tallennetaan Boostaamo-konsernin yhteiseen asiakas- ja liidirekisteriin. Yhteydenottoosi vastaa Liekki Partners. Rekisteriä käyttävät Boostaamo-konsernin yhtiöiden asiakkuuksia hoitavat henkilöt, jotta yhteydenottosi ohjautuu oikealle asiantuntijalle eikä sinuun oteta yhteyttä päällekkäin. Emme myy tai luovuta tietoja konsernin ulkopuolelle markkinointiin.
 
 Käytämme seuraavia palveluntarjoajia, jotka käsittelevät tietoja puolestamme:
 
 - Vercel Inc. (sivuston ylläpito)
-- Google (lomakkeen välitys ja sähköposti sekä Google Analytics)
+- Supabase Inc. (asiakas- ja liidirekisterin tietokanta, tiedot EU:ssa)
+- Google (sähköposti ja Google Analytics)
 
 Palveluntarjoajat voivat käsitellä tietoja myös EU:n ja ETA:n ulkopuolella, erityisesti Yhdysvalloissa. Siirrot perustuvat EU:n ja Yhdysvaltojen väliseen tietosuojakehykseen (EU-U.S. Data Privacy Framework) tai Euroopan komission hyväksymiin vakiosopimuslausekkeisiin.
 
